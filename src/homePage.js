@@ -1,17 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './footer';
 import Header from './carosel';
 import Navbar from './navbar';
 import Offers from './offers';
 // import Login from './middleWare'
-import Logo from '../img/logo.jpg';
+import Logo from './img/logo.jpg';
 import Card from './cards.js';
 import Gallery from './gallery'
 import Events from './events';
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 // import LoginPage from "./middleWare"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -23,12 +23,12 @@ function Home() {
       <div className='logo' style={{justifyContent: 'center', display:'flex',boxSizing:"content-box",paddingTop:40}} >
         <img src={Logo} style={{}}  className='img-fluid' alt='...' />
       </div>  
-      <Offers/>
-        <Header />
-      <div style={{ textAlign: 'center',paddingTop:10 }}>
+      {/* <Offers/> */}
+        {/* <Header /> */}
+      {/* <div style={{ textAlign: 'center',paddingTop:10 }}>
         <h1>Upcoming Events</h1>
       </div>
-        <Events />
+        <Events /> */}
       <div style={{ textAlign: 'center' }}>
       <div>
         <p></p>
@@ -36,14 +36,14 @@ function Home() {
         <div>
         <p></p>
       </div>
-        <h1>Services</h1>
+        {/* <h1>Services</h1> */}
       </div>
       <div>
         <p></p>
       </div>
-      <Card />
+      {/* <Card /> */}
 
-      <Offers/>
+      {/* <Offers/> */}
 
 
       <div style={{ textAlign: 'center' }}>

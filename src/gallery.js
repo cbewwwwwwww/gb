@@ -1,11 +1,13 @@
 import React from 'react';
-import g1 from '../img/g1.png';
-import g2 from '../img/g8.jpg';
-import g3 from '../img/g3.png';
-import g4 from '../img/g4.png';
-import g5 from '../img/g5.png';
-import g6 from '../img/g6.png';
-import g7 from '../img/g7.png';
+import g1 from './img/g1.png';
+import g2 from './img/g8.jpg';
+import g3 from './img/g3.png';
+import g4 from './img/g4.png';
+import g5 from './img/g5.png';
+import g6 from './img/g6.png';
+import g9 from './img/g9.jpg';
+import g10 from './img/g10.jpg';
+// import g7 from './img/g7.png';
 
 
 const Gallery = () => {
@@ -47,6 +49,22 @@ const Gallery = () => {
         
         <img
           src={g5}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Yosemite National Park"
+        />
+      </div>
+      <div className="col-lg-4 mb-4 mb-lg-0" style={{padding:20}}>
+      
+        <img
+          src={g9}
+          className="w-100 shadow-1-strong rounded mb-4"
+          alt="Yosemite National Park"
+        />
+      </div>
+      <div className="col-lg-4 mb-4 mb-lg-0" style={{padding:20}}>
+      
+        <img
+          src={g10}
           className="w-100 shadow-1-strong rounded mb-4"
           alt="Yosemite National Park"
         />

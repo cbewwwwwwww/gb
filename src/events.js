@@ -9,7 +9,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import { auto } from "@popperjs/core";
 
-import '../App.css';
+import './App.css';
 
 
 export default function Events() {
