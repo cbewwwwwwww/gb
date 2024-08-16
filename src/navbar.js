@@ -18,7 +18,7 @@ export default function Navbar() {
         <MDBNavbarBrand href='#'>
           {/* <img src={logoImage} alt="Logo" style={{ maxHeight: '50px' }} />
            */}
-           <span style={{ margin: '0 10px' }}> Gogul Builders</span>
+           <span style={{ margin: '0 10px' }}> GOGUL Building Material Supplier</span>
 
         </MDBNavbarBrand>
         

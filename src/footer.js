@@ -28,7 +28,7 @@ export default function Footer() {
   <section className="mb-6 ">
     
      
-              <p><i className="fas fa-phone me-3"></i>  9842725230 / 9942397734</p>
+              <p><i className="fas fa-phone me-3"></i>  9842725230 / 9884920108</p>
      
     </section>
   </div>
@@ -50,7 +50,7 @@ export default function Footer() {
 
       <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2024 Copyright 
-        <a className="text-reset fw-bold">  Gogul Agencies</a>
+        <a className="text-reset fw-bold">  GOGUL Building Material Supplier</a>
       </div>
       
     </footer>
